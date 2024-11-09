@@ -1,0 +1,79 @@
+:root {
+    font-family: "Comic Sans MS";
+    scrollbar-gutter: stable both-edges;
+}
+
+.blink {
+    width: 100%;
+    image-rendering: pixelated;
+}
+
+.link {
+    color: forestgreen;
+    background-color: darkgreen;
+
+    border-style: outset;
+    border-color: forestgreen;
+
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block;
+
+    text-decoration-line: none;
+
+    font-family: 'Comic Sans MS';
+}
+
+.link:hover{
+    border-style: inset;
+}
+
+.current {
+    border-style: inset;
+}
+
+hr.separator {
+    border-style: inset;
+    border-color: darksalmon;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.stripes {
+    background: repeating-linear-gradient(
+        -70deg,
+        #000000 10px,
+        #000000 40px,
+        #fbff00 10px,
+        #fbff00 70px
+    );
+    text-align: center;
+}
+
+.full {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.left {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.middle {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.right {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.red {
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+
+    font-size: 50px;
+}

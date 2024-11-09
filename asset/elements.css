@@ -1,0 +1,101 @@
+.box {
+    background-color: sandybrown;
+    
+    border-width: 5px;
+    border-color: burlywood;
+    border-style: outset;
+}
+
+body {
+    background-color:dodgerblue;
+}
+
+article {
+    padding: 8px;
+}
+
+.page {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    padding-top: 5px;
+    display: grid;
+    gap: 5px;
+}
+
+header.box{
+    height: 60px;
+    padding: 2px;
+    text-align: center;
+    background:skyblue;
+    border-width: 5px;
+    border-color: lightskyblue;
+}
+
+header.box > h1 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+paragraph {
+    color: black;
+}
+
+paragraph > p {
+    text-wrap: stable;
+}
+
+aside {
+    height: 50rem;
+    background-color: aqua;
+    border-width: 10px;
+    border-color: black;
+}
+
+nav {
+    height: fit-content;
+}
+
+nav > ul {
+    margin-left: 0px;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+nav > h1 {
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+nav > ul > a {
+    color: forestgreen;
+    background-color: darkgreen;
+
+    border-style: outset;
+    border-color: forestgreen;
+
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block;
+
+    text-decoration-line: none;
+
+    font-family: 'Comic Sans MS';
+}
+
+nav > ul > a:hover {
+    border-style: inset;
+}

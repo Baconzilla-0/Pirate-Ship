@@ -1,0 +1,9 @@
+.island {
+    color:greenyellow;
+    background-color: forestgreen;
+    border-color:green;
+}
+
+.island > hr.separator {
+    border-color: darkgreen;
+}

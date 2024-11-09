@@ -1,0 +1,9 @@
+.ship {
+    color:chocolate;
+    background-color: saddlebrown;
+    border-color:sienna;
+}
+
+.ship > hr.separator {
+    border-color: sienna;
+}
